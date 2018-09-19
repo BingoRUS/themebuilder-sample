@@ -1,0 +1,62 @@
+<div class="dx-fieldset colors">
+  <div class="dx-field">
+      <div class="dx-field-label">Accent Color</div>
+      <div class="dx-field-value">
+        <dx-color-box
+          [(value)]="accentColor"
+          (onValueChanged)="colorChanged()"
+        ></dx-color-box>
+      </div>
+  </div>
+
+  <div class="dx-field">
+      <div class="dx-field-label">Background Color</div>
+      <div class="dx-field-value">
+        <dx-color-box
+          [(value)]="backgroundColor"
+          (onValueChanged)="colorChanged()"
+        ></dx-color-box>
+      </div>
+  </div>
+
+  <div class="dx-field">
+      <div class="dx-field-label">Text Color</div>
+      <div class="dx-field-value">
+        <dx-color-box
+          [(value)]="textColor"
+          (onValueChanged)="colorChanged()"
+        ></dx-color-box>
+      </div>
+  </div>
+
+  <div class="dx-field">
+      <div class="dx-field-label">Border Color</div>
+      <div class="dx-field-value">
+        <dx-color-box
+          [(value)]="borderColor"
+          (onValueChanged)="colorChanged()"
+        ></dx-color-box>
+      </div>
+  </div>
+</div>
+
+<hr />
+
+<div class="widgets">
+  <dx-calendar
+    [(value)]="today"
+  ></dx-calendar>
+  <br />
+  <dx-range-slider 
+    [min]="0" 
+    [max]="100" 
+    [start]="20" 
+    [end]="60"
+    [width]="400"
+  ></dx-range-slider>
+  <br />
+  <dx-check-box
+    [value]="true"
+    text="CheckBox"
+  ></dx-check-box>
+</div>
