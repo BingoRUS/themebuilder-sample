@@ -24,7 +24,7 @@
               {
                 "glob": "**/*",
                 "input": "./node_modules/devextreme-themebuilder/data/less",
-                "output": "data/less"
+                "output": "devextreme-themebuilder/data/less"
               },
               {
                 "glob": "dx.common.css",
