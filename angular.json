@@ -24,22 +24,22 @@
               {
                 "glob": "**/*",
                 "input": "./node_modules/devextreme-themebuilder/data/less",
-                "output": "devextreme-themebuilder/data/less"
+                "output": "assets/themebuilder/less"
               },
               {
                 "glob": "dx.common.css",
                 "input": "./node_modules/devextreme/dist/css",
-                "output": "css"
+                "output": "assets/devextreme/css"
               },
               {
                 "glob": "**/*",
                 "input": "./node_modules/devextreme/dist/css/icons",
-                "output": "icons"
+                "output": "assets/devextreme/css/icons"
               },
               {
                 "glob": "**/*",
                 "input": "./node_modules/devextreme/dist/css/fonts",
-                "output": "fonts"
+                "output": "assets/devextreme/css/fonts"
               }
             ],
             "styles": [
