@@ -1,7 +1,7 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule, APP_INITIALIZER  } from '@angular/core';
 import { HttpClientModule } from '@angular/common/http';
-import { DxColorBoxModule, DxCalendarModule, DxRangeSliderModule, DxCheckBoxModule } from 'devextreme-angular';
+import { DxColorBoxModule, DxCalendarModule, DxRangeSliderModule, DxCheckBoxModule, DxButtonModule } from 'devextreme-angular';
 
 import { ThemeService } from './theme.service';
 import { AppComponent } from './app.component';
@@ -20,7 +20,8 @@ export function initTheme(themeService: ThemeService) {
         DxColorBoxModule,
         DxCalendarModule,
         DxRangeSliderModule,
-        DxCheckBoxModule
+        DxCheckBoxModule,
+        DxButtonModule
     ],
     providers: [
         ThemeService,

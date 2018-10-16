@@ -43,10 +43,11 @@
 <hr />
 
 <div class="widgets">
+    <h2 class="dx-theme-accent-as-text-color">DevExtreme Widgets</h2>
   <dx-calendar
     [(value)]="today"
   ></dx-calendar>
-  <br />
+  <br /><br />
   <dx-range-slider 
     [min]="0" 
     [max]="100" 
@@ -54,9 +55,13 @@
     [end]="60"
     [width]="400"
   ></dx-range-slider>
-  <br />
+  <br /><br />
   <dx-check-box
     [value]="true"
     text="CheckBox"
   ></dx-check-box>
+  <br /><br />
+  <dx-button
+    text="Click me"
+  ></dx-button>
 </div>
