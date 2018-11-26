@@ -20,7 +20,7 @@ export class ThemeService {
         if(borderColor) items.push({"key":"@base-border-color","value":borderColor});
 
         ThemeBuilder.buildTheme({
-            lessCompiler: lessCompiler(window, { rootpath: "assets/devextreme/css" }),
+            lessCompiler: lessCompiler(window, { rootpath: "assets/devextreme/css", math: "always" }),
             lessPath: "assets/themebuilder/less",
             outputColorScheme: "custom",
             reader: this.loadLess,

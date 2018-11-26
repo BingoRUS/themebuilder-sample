@@ -22,7 +22,7 @@
     "devextreme": "^18.2.1-pre-18288",
     "devextreme-angular": "^18.2.1-beta.7",
     "devextreme-themebuilder": "^18.2.1-pre-18288",
-    "less": "^2.6.1",
+    "less": "^3.8.1",
     "rxjs": "~6.2.0",
     "zone.js": "~0.8.26"
   },
